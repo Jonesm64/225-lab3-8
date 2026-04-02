@@ -22,7 +22,7 @@ pipeline {
                     userRemoteConfigs: [[
                 url: "${GITHUB_URL}",
                 credentialsId: 'roseaw-dockerhub'
-                ])
+                ]])
             }
         }
 
